@@ -4,17 +4,17 @@ import { useState, useEffect } from 'react'; // import useEffect
     function App() {
         const [tasks, setTasks] = useState([]);
         useEffect(() => {
-        fetch('http://localhost:5002/api/tasks')
-        .then(response => response.json())
-        .then(data => setTasks(data))
-        .catch((error) => {
-        console.error('Error:', error);
+            fetch('http://localhost:5002/api/tasks')
+                .then(response => response.json())
+                .then(data => setTasks(data))
+                .catch((error) => {
+                    console.error('Error:', error);
     });
     }, []);
     return (
-    <div className='page'>
-    <List heading='My Tasks' tasks={tasks} setTasks={setTasks}/>
-    </div>
-    );
+        <div className='page'>
+            <List heading='My Tasks' tasks={tasks} setTasks={setTasks}/>
+        </div>
+        );
     }
 export default App;

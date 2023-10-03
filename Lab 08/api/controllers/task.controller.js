@@ -8,29 +8,30 @@ exports.create = (req, res) => {
         description: req.body.description,
         completed: req.body.completed || false
         };
+
         Task.create(task)
-        .then(data => {
-        res.send(data);
+            .then(data => {
+                res.send(data);
         })
         .catch(err => {
-        res.status(500).send({
-        message:
-        err.message || "Some error occurred"
-        });
+            res.status(500).send({
+                message:
+                err.message || "Some error occurred"
+            });
         });
 };
 
 // Retrieve all Tasks from the database.
 exports.findAll = (req, res) => {
     Task.findAll()
-    .then(data => {
-    res.send(data);
+        .then(data => {
+            res.send(data);
     })
-    .catch(err => {
-    res.status(500).send({
-    message: err.message || "Some error occurred"
-    });
-    });
+        .catch(err => {
+            res.status(500).send({
+                message: err.message || "Some error occurred"
+            });
+        });
 };
 
 // Find a single Task with an id

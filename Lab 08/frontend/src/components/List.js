@@ -39,20 +39,20 @@ function List(props) {
 
 	function onClick() {
 		fetch('http://localhost:5002/api/tasks', {
-		method: 'POST',
-		headers: {
-		'Content-Type': 'application/json'
-		},
-		body: JSON.stringify({ description: newTask, completed: false })
+			method: 'POST',
+			headers: {
+			'Content-Type': 'application/json'
+			},
+			body: JSON.stringify({ description: newTask, completed: false })
 		})
-		.then(response => response.json())
-		.then(data => {
-		props.setTasks(tasks => [...tasks, data]);
-		})
+			.then(response => response.json())
+			.then(data => {
+				props.setTasks(tasks => [...tasks, data]);
+			})
 		.catch((error) => {
-		console.error('Error:', error);
-		});
-		setNewTask(""); // Clear the input field
+			console.error('Error:', error);
+			});
+			setNewTask(""); // Clear the input field
 		}
 
 	return (
