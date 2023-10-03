@@ -4,6 +4,12 @@ const Op = db.Sequelize.Op;
 
 // Create and Save a new Task
 exports.create = (req, res) => {
+    if(!req.body.description) {
+        res.status(400).send({
+            message: "Content can not be empty!"
+        });
+        return;
+    }
     const task = {
         description: req.body.description,
         completed: req.body.completed || false
