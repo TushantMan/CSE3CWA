@@ -6,7 +6,9 @@ module.exports = (sequelize, Sequelize) => {
             primaryKey: true,
         },
         description: {
-            type: Sequelize.STRING
+            type: Sequelize.STRING,
+            allowNull: false
+
         },
         completed: {
             type: Sequelize.BOOLEAN
