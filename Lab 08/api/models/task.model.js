@@ -9,12 +9,7 @@ module.exports = (sequelize, Sequelize) => {
             type: Sequelize.STRING,
             allowNull: false
 
-        },
-        completed: {
-            type: Sequelize.BOOLEAN
         }
-
     });
-  
     return Task;
 };

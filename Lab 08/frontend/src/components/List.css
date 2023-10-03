@@ -1,0 +1,173 @@
+.Header{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    color:black;
+    font-size: 34px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    padding: 60px 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.firstLabel{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    align-items: center;
+    color: #333;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.mainForm{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 5px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 20px #000000;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.contractorInput{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.primaryButton{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2ecc71;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    outline: none;
+}
+.line-1{
+    position: relative;
+    border: 1px solid #000000;
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+    margin-top: 15px;
+}
+.secondLabel{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    align-items: center;
+    font-weight: lighter;
+    color: #333;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.contactDetails{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-radius: 5px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 20px #000000;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    list-style: none;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+.contactName{
+    font-size: 18px;
+    height: auto;
+    font-weight: bold;
+    border-bottom: 2px solid #000000;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    align-items: start;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.delete-1{
+    width: auto;
+    height: 40px;
+    width: 80px;
+    align-items: end;
+    border-radius: 5px;
+    border: none;
+    background-color: #d61900;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    outline: none;
+} 
+.table-1{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.tr{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+.Number{
+    width: 90%;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 5px;
+    margin: 10px 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+.secondaryButton{
+    width: 45%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2ecc71;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    outline: none;
+}
